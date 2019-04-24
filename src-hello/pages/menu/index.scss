@@ -1,0 +1,22 @@
+.logo {
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    img {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        transition: all 1s;
+    }
+    span {
+        margin-left: 10px;
+        color: #fff;
+    }
+}
+
+.logo:hover {
+    img {
+        transform: rotate(360deg);
+    }
+   
+}

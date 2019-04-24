@@ -1,0 +1,31 @@
+.layout-sider {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    overflow: auto;
+}
+.layout-layout {
+    margin-left: 200px;
+    position: relative;
+    height: 100vh;
+    background: #fff;
+    .layout-header {
+        background: #fff;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid gray;
+        padding: 0;
+        margin: 0 20px;
+    }
+    .layout-content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 70px;
+        bottom: 0;
+        // border: 1px solid red;
+        overflow-y: auto;
+        background: #fff;
+        margin: 0 20px;
+    }
+}
